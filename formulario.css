@@ -1,0 +1,180 @@
+/*Todos os elementos da pagina*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Corpo da pagina*/
+body{
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 2%;
+	background-image: url("img/fundo4.jpg");
+	background-size: 1600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Elementos do formulario*/
+.campoformulario{
+    width: 45%;
+    min-height:500px;
+    background-color: rgba(72, 222, 233, 0.4);
+  	box-shadow: 10px 5px 5px black; /*White*/
+    border-radius: 30px;
+  	border: solid 1px rgba(72, 222, 233, 0.999);
+    justify-content: center;
+}
+
+/*Elemento do titulo*/
+#titulo{
+	margin-top: 10px;
+	font-family: arial;
+	color: white;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+/*Elemento do subtitulo*/
+#subtitulo{
+	margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+	font-size: 20px;
+	color: rgba(72, 222, 233);
+	text-shadow: 0.1em 0.2em 0.5em black;
+}
+/*Elementos dados pessoais*/
+.form-rounded{
+	width:300px;
+	margin-top: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+	font-size: 0.8em;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: -internal-light-dark(white, white);
+    outline: 0;
+}
+
+/*Elemento aplicação que desenvolve*/
+strong{
+	color: #ffffff;
+    text-shadow: 0.1em 0.2em 0.5em black;
+}
+
+/*Elementos da strong aplicacao*/
+.desenvolve{
+    margin-top: 15px;
+    margin-left: center;
+}
+
+/*Elementos de conhecimento*/
+#senioridade{
+    margin-top: 5px; 
+    border-radius: 30px;
+}
+
+#tec{
+    margin-top: 5px;
+    color: rgb(218, 215, 215); text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#front{
+    margin-top: 5px;
+    color: rgb(218, 215, 215); text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Elemento  tecnologias que utiliza*/
+#tecnologia{
+    margin-top: 10px; 
+}
+
+/*Elemento caixa de texto*/
+textarea{
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #999;
+    border: 1px solid #ccc;
+}
+
+/*Elemento experiencia da caixa de texto*/
+#experiencia{
+    margin-top: 10px;
+}
+
+/*Elemesntos CSS do botão*/
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+/* Elemento de classe "botao" */
+/*.botao {
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+*/
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+/*
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+ Elementos de classe botão e de tag <select>
+.botao, select{
+    cursor: pointer;
+}
+*/

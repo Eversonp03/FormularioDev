@@ -1,0 +1,95 @@
+<head>
+    <!-- Metadados -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+    <!--link do icon-->
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <!-- Título da página (aparece na aba) -->
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <form id="pagina" onsubmit="">
+        <div class="campoformulario">
+            <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+            <div id="titulo">
+                <h1 id="titulo">Cadastro de DEVs</h1>
+            </div>
+            <div id="subtitulo">
+                <p id="subtitulo">Complete suas informações</p>
+            </div>
+
+            <!-- Início do formulário -->
+            <div id="dadospessoais">
+                <!-- Campo do nome, sobrenome, email, linkedin -->
+                <input class="form-rounded" type="text" name="nome" id="nome" placeholder=" nome" required><br>
+                <input class="form-rounded" type="text" name="sobrenome" id="sobrenome" placeholder=" sobrenome"
+                    required><br>
+                <input class="form-rounded" type="text" name="email" id="email" placeholder=" e-mail" required><br>
+                <input class="form-rounded" type="text" name="linkedin" id="linkedin" placeholder=" linkedin"
+                    required><br>
+                <br>
+            </div>
+
+            <!-- Campo de Desenvolvimento web com 3 opções selecionaveis-->
+            <strong>De qual lado da aplicação você desenvolve?</strong><br>
+            <div id="front">
+                <input class="desenvolve" type="radio" name="devweb" value="frontend" checked> Front-End
+                <input class="desenvolve" type="radio" name="devweb" value="backend" checked> Back-End
+                <input class="desenvolve" type="radio" name="devweb" value="fullstack" checked> Fullstack
+            </div>
+            <br>
+
+            <!-- Campo de senioridade com 3 opções para escolha(select option) -->
+            <div id="conhecimento">
+                <label for="senioridade"><strong>Senioridade</strong></label>
+                <select id="senioridade" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Junior</option>
+                    <option>Pleno</option>
+                    <option>Senior</option>
+                </select>
+            </div>
+            <br>
+
+            <!-- Campo de tecnologias para escolher de 1 ou mais opções para marcar(checkbox) -->
+            <label><strong id="tecnologia">Selecione as tecnologias que utiliza:</strong></label><br>
+            <div id="tec">
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                <label for="tecnologia1">HTML</label>
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                <label for="tecnologia2">CSS</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                <label for="tecnologia3">JavaScript</label> <br>
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                <label for="tecnologia4">PHP</label>
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                <label for="tecnologia5">C#</label>
+                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                <label for="tecnologia6">Python</label>
+                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                <label for="tecnologia7">Java</label>
+                <br>
+            </div>
+
+            <!--Caixa de texto-->
+            <div id="experiencia">
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência</strong></label>
+                <textarea name="6" rows="8" id="experiencia" style="width: 26em" name="experiencia"
+                    placeholder="text:"></textarea>
+                <br>
+            </div>
+
+            <!--Botão para enviar o formulário-->
+            <div id="botao">
+                <button class="button" style="vertical-align:middle" type="submit"><span>Concluido </span></button>
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>
